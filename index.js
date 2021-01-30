@@ -8,7 +8,6 @@ class App extends Component {
     super();
     this.detais = this.details.bind(this);
     this.state = {
-      name: "to Github user details",
       detailed: false,
       moreinfo: "",
       onloadData: [
